@@ -1,0 +1,36 @@
+
+name: PR Check
+
+on:
+  workflow_dispatch
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.7.0
+        with:
+          node-version: 19.x
+          
+      - name: Clone modpacksource.code
+        uses: actions/checkout@v3
+        with: 
+          repository: "hkmodmanager/ModpackSource.Code"
+          path: code
+
+      - name: NPM CI
+        run: |
+          cd code
+          npm ci
+          npm run build
+
+      - name: Check
+        env: 
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHECK_NAME: ${{ github.job }}
+        run: |
+          cd code
+          npm run schedule
+
