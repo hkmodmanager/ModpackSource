@@ -2,18 +2,20 @@
 name: Schedule
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  schedule:
+    - cron: "0,30 * * * *"
 
 jobs:
   schedule:
     runs-on: ubuntu-latest
     permissions: write-all
+    if: github.repository == 'hkmodmanager/ModpackSource'
     steps:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.7.0
         with:
           node-version: 19.x
-          
       - name: Clone modpacksource.code
         uses: actions/checkout@v3
         with: 
