@@ -1,5 +1,5 @@
 
-name: PR Check
+name: Schedule
 
 on:
   workflow_dispatch
