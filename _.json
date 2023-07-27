@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/schema/mps.schema.json",
+    "name": "Default Modpacks Source",
+    "authors": [],
+    "description": "Default Modpacks Source",
+    "repository": "https://github.com/hkmodmanager/ModpackSource"
+}
