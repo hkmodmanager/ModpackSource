@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/schema/mps.schema.json",
+    "name": "Test",
+    "authors": [
+        "Test"
+    ],
+    "description": "Hello, World!"
+}
