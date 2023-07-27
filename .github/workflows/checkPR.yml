@@ -39,11 +39,12 @@ jobs:
         run: |
           cd code
           npm ci
+          npm run build
       
       - name: Check
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_ID: ${{ github.event.pull_request.id }}
+          PR_ID: ${{ github.event.pull_request.number }}
         run: |
           cd code
           npm run prCheck
