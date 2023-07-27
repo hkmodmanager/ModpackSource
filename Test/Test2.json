@@ -2,4 +2,7 @@
   "name": "Test2",
   "version": "1.0.0.0",
   "description": "Hello, World!",
+  "author": [
+    "Test"
+  ]
 }
