@@ -43,13 +43,8 @@ jobs:
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_ID: ${{ github.event.pull_request.number }}
+          REF: ${{ github.ref }}
+          CHECK_NAME: ${{ github.job }}
         run: |
           cd code
           npm run prCheck
-      - name: Report
-        uses: kibalabs/github-action-create-annotations@main
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          json-file-path: ./code/errors.json
-          fail-on-error: true
-          check-name: Check
