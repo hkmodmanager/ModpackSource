@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hpackage/hpackage-schema/main/hpackage.schema.json",
+    "name": "Test1",
+    "description": "Hello, World!",
+    "version": "1.0.0.0",
+    "authors": [
+        "Test"
+    ],
+    "additionalAssets": [
+        {
+            "downloadUrl": "https://www.baidu.com",
+            "installPath": "Test",
+            "installRootDir": "mods"
+        }
+    ]
+}
