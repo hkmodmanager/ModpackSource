@@ -46,4 +46,10 @@ jobs:
         run: |
           cd code
           npm run prCheck
-          
+      - name: Report
+        uses: kibalabs/github-action-create-annotations@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          json-file-path: ./code/errors.json
+          fail-on-error: true
+          check-name: Check
