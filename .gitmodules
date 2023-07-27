@@ -1,0 +1,6 @@
+[submodule "hkmm-schema"]
+	path = hkmm-schema
+	url = https://github.com/hkmodmanager/hkmm-schema.git
+[submodule "hpackage-schema"]
+	path = hpackage-schema
+	url = https://github.com/hpackage/hpackage-schema.git

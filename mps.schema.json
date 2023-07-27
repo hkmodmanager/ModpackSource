@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Hollow Knight Mod Manager Package Provider V1",
+    "description": "Definition schema for Hollow Knight Mod Manager Packages Provider",
+    "type": "object",
+    "required": [
+        "name",
+        "description",
+        "authors"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "name": {
+            "$comment": "The name of the source.",
+            "type": "string"
+        },
+        "icon": {
+            "$comment": "The icon of the source (URL/ Data URL).",
+            "type": "string"
+        },
+        "description": {
+            "$comment": "A brief description of the source.",
+            "type": "string"
+        },
+        "authors": {
+            "$comment": "The authors of the source. What constitutes authorship is up for interpretation.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "repository": {
+            "$comment": "The repository URL.",
+            "type": "string",
+            "format": "uri"
+        }
+    }
+}
