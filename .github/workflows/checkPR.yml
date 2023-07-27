@@ -41,7 +41,7 @@ jobs:
           npm ci
       
       - name: Check
-        env: |
+        env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_ID: ${{ github.event.pull_request.id }}
         run: |
