@@ -8,7 +8,7 @@
     ],
     "additionalAssets": [
         {
-            "downloadUrl": "https://www.baidu.com",
+            "downloadUrl": "https://www.example.com",
             "installPath": "Test",
             "installRootDir": "mods"
         }

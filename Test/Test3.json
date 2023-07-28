@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hpackage/hpackage-schema/main/hpackage.schema.json",
+    "name": "Test3",
+    "description": "Hello, World! **I'm Test3**",
+    "version": "1.0.0.4",
+    "authors": [
+        "Test"
+    ],
+    "additionalAssets": [
+        {
+            "downloadUrl": "https://www.example.com",
+            "installPath": "Test",
+            "installRootDir": "mods"
+        }
+    ]
+}
