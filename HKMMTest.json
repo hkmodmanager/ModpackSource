@@ -1,0 +1,10 @@
+{
+    "name": "HKMMTest",
+    "authors": [
+        "Test"
+    ],
+    "description": "Hello, World!",
+    "packages": [
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test1.json"
+    ]
+}
