@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/schema/mps.schema.json",
+    "name": "HKMMTest 2",
+    "icon": "https://raw.githubusercontent.com/hkmodmanager/HKModManager/master/HKMM-UI/public/img/logo.png",
+    "authors": [
+        "Test"
+    ],
+    "description": "Hello, World! **I'm two**"
+}
