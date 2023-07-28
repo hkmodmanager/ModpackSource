@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hpackage/hpackage-schema/main/hpackage.schema.json",
+    "name": "Test2",
+    "version": "1.0.0.0",
+    "description": "Test 2!",
+    "authors": [
+        "Test2"
+    ],
+    "dependencies": [
+        "Custom Knight"
+    ],
+    "tags": [ "Cosmetic", "Library", "Utility" ]
+}
