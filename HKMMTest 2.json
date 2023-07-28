@@ -1,0 +1,11 @@
+{
+    "name": "HKMMTest 2",
+    "authors": [
+        "Test"
+    ],
+    "description": "Hello, World! **I'm two**",
+    "packages": [
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test2/Test2.json"
+    ],
+    "icon": "https://raw.githubusercontent.com/hkmodmanager/HKModManager/master/HKMM-UI/public/img/logo.png"
+}
