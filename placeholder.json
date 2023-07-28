@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/hpackage/hpackage-schema/main/hpackage.schema.json",
+    "name": "Modpack Source Placeholder",
+    "version": "0.0.0.0",
+    "description": "Placeholder",
+    "authors": []
+}
