@@ -5,6 +5,6 @@
     ],
     "description": "Hello, World!",
     "packages": [
-        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test1.json"
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test1/Test1.json"
     ]
 }
