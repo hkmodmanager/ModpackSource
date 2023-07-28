@@ -1,0 +1,10 @@
+{
+    "name": "Default Modpacks Source",
+    "authors": [],
+    "description": "Default Modpacks Source",
+    "repository": "https://github.com/hkmodmanager/ModpackSource",
+    "packages": [
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test3.json",
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/placeholder.json"
+    ]
+}
