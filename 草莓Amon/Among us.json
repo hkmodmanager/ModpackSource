@@ -1,0 +1,15 @@
+{
+    "name": "Among us",
+    "description": "Showcase: https://www.bilibili.com/video/BV1aL4y1u7BV",
+    "version": "1.0.0.0",
+    "authors": [
+        "草莓Amon"
+    ],
+    "additionalAssets": [
+        {
+            "installRootDir": "mods",
+            "installPath": "Custom Knight/Skins",
+            "downloadUrl": "https://github.com/HKLab/HK.SkinStore/raw/main/Among%20us%20by%20%E8%8D%89%E8%8E%93Amon-20230729T023139Z-001.zip"
+        }
+    ]
+}
