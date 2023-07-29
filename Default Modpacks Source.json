@@ -5,6 +5,9 @@
     "repository": "https://github.com/hkmodmanager/ModpackSource",
     "packages": [
         "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/Test/Test3.json",
-        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/placeholder.json"
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/XH-土星Saturn/Sporadic Skin.json",
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/placeholder.json",
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/芈蓺藜雨/Infection of Light.json",
+        "https://raw.githubusercontent.com/hkmodmanager/ModpackSource/main/草莓Amon/Among us.json"
     ]
 }
