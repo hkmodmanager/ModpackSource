@@ -12,5 +12,8 @@
             "installPath": "Custom Knight/Skins",
             "downloadUrl": "https://github.com/HKLab/HK.SkinStore/raw/main/Infection%20of%20Light.zip"
         }
+    ],
+    "dependencies": [
+        "Custom Knight"
     ]
 }
