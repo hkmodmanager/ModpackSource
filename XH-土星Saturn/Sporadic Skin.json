@@ -12,5 +12,8 @@
             "installPath": "Custom Knight/Skins/Sporadic Skin",
             "downloadUrl": "https://github.com/HKLab/HK.SkinStore/raw/main/Sporadic%20Skin.zip"
         }
+    ],
+    "dependencies": [
+        "Custom Knight"
     ]
 }
